@@ -1,0 +1,17 @@
+print('Hello there!')
+print('How are you today?')
+if input():
+    print("I'm glad!")
+else:
+    print("That sucks.")
+input() == "good"
+
+
+
+print('Hello there!')
+print('How are you today?')
+input() == "good"
+if input():
+    print("I'm glad!")
+else:
+    print("That sucks.")
