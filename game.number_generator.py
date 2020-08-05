@@ -2,9 +2,10 @@
 import random
 
 nameInput = input("Hello. What is your name?\n")
+nameInput.capitalize()
 print('Well, {name}, I am thinking of a number between 1 and 20'.format(name=nameInput))
-secretNumber = random.randint(1,20)
 
+secretNumber = random.randint(1,20)
 print('DEBUG: The secret number is ' + str(secretNumber) + '!')
 
 try:
