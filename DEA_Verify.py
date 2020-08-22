@@ -32,4 +32,4 @@ while True:
             print('\nThe DEA number you have entered is INVALID.')
             break
 else:
-    print('hi')
+    print('sumting went rong')
