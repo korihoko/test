@@ -4,8 +4,9 @@ Please enter in the seven digit number you are trying to verify: ")
 
 while True:
     deaInsert_fixed = input('Please recheck your number and try again: ')
+    
     if len(deaInsert_fixed) == 7 and deaInsert_fixed.isdecimal():
-# Need to check for 6 #'s and int
+    # Need to check for 6 #'s and int
         deaInsert = str(deaInsert_fixed)
         position = 0
         deaList = ''
