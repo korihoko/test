@@ -19,7 +19,12 @@ while True:
         second_digit = int(deaList[1:2]) + int(deaList[3:4]) + int(deaList[5:6])
         second_digit *= 2
         total_sum = first_digit + second_digit
-
+     
+        # First: 1st, 3rd, 5th added together
+        # Then 2nd, 4th, and 6th numbers added. This sum is multiplied by 2.
+        # Both the first sum and second sums are added together; 
+        # the ones-place digit ([-1]) should == digit #7 in the number
+        
         if str(total_sum)[-1] == str(deaList[-1]):
             print('\nThe digit values you have entered are valid!')
             break
